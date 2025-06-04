@@ -934,10 +934,21 @@ transfer learning scenarios. Do some research about this model.
 
 **8\_** Why do you think using this architecture in this practical
 assignment can help to improve the results? Hint: See MobileNet
-publication
+publication\
+MobileNet may improve results because it’s designed for mobile/embedded
+applications with limited resources, utilizing depthwise separable
+convolutions to optimize parameter usage. Additionally, it leverages
+pre-trained features learned from ImageNet and can be fine-tuned for
+medical image classification. Lastly, MobileNet’s computational
+efficiency results in faster training and inference times.
 
 **9\_** How many parameters does this network have? How does this
-compare to better performing networks available in torch?
+compare to better performing networks available in torch?\
+When comparing parameters, MobileNetV2 has approximately 3.4 million
+parameters, ResNet-50 has around 25.6 million parameters, VGG-16 has
+approximately 138 million parameters, and DenseNet-121 has approximately
+8 million parameters. MobileNet is significantly more
+parameter-efficient while maintaining competitive performance.
 
 In the following you can see an example of how we can load pre-trained
 models in our codes.
