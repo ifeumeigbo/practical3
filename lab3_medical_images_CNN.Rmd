@@ -488,9 +488,19 @@ grid.arrange(fig, nrow = 1)
 
 ```
 
-As you can see, the provided dataset is completely balanced in all sets.
+As you can see, the provided dataset is completely balanced in all
+sets.\
 **3\_** if the dataset was not balanced, what kind of techniques could
-be useful?
+be useful?\
+Several techniques for handling imbalanced datasets:\
+Data augmentation: Generate more samples of the minority class.\
+Weighted loss functions: Assign higher weights to minority class
+samples.\
+SMOTE: Synthetic Minority Oversampling Technique.\
+Undersampling: Reduce majority class samples.\
+Ensemble methods: Combine multiple models trained on balanced subsets.\
+Threshold adjustment: Modify classification threshold based on class
+distribution
 
 # Training
 
