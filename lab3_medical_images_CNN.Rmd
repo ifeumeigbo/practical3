@@ -166,7 +166,17 @@ Look carefully at the filenames for the X-rays showing pneumonia (i.e.,
 those in `{train,test}/PNEUMONIA`).
 
 **1\_** Do these filenames tell you anything about pneumonia? Why might
-this make predicting pneumonia more challenging?
+this make predicting pneumonia more challenging?\
+Yes, the filenames often contain information about the type of pneumonia
+(bacteria or virus). This makes prediction more challenging for
+different reasons such as:\
+The model might learn to classify based on filename patterns rather than
+actual image features.\
+There are different types of pneumonia with different radiological
+appearances.\
+Bacterial and viral pneumonia may have different visual characteristics
+that the model needs to distinguish.\
+This adds complexity beyond a simple binary classification problem.
 
 The dataset folder is assumed to contain three subfolders: train, test,
 and validate. Each of these subfolders further contains two folders
