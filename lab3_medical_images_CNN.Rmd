@@ -306,7 +306,14 @@ grid.arrange(grobs = plots, nrow = 2, ncol = 2)
 ```
 
 **2\_** From looking at only 3 images do you see any attribute of the
-images that we may have to normalise before training a model?
+images that we may have to normalise before training a model?\
+Yes, several attributes need normalization:\
+Intensity/Brightness: Images have different brightness levels and
+contrast.\
+Size: Images may have different dimensions.\
+Orientation: Some images might be rotated or flipped.\
+Pixel value ranges: Need to normalize pixel values to 0-1 range for
+consistent training.
 
 # Data Pre-processing
 
