@@ -920,7 +920,14 @@ have already been trained on the ImageNet dataset.
 
 **7\_** What is ImageNet aka “ImageNet Large Scale Visual Recognition
 Challenge 2012”? How many images and classes does it involve? Why might
-this help us?
+this help us?\
+ImageNet is a vast visual database containing over 14 million images
+spanning 20,000+ categories. Its primary purpose is to facilitate visual
+object recognition research, and it has become a standard benchmark for
+computer vision models. Notably, ImageNet offers a significant benefit
+for medical imaging by providing pre-trained features that can be easily
+transferred to medical images, serving as a strong foundation for
+specialized tasks.
 
 MobileNet is a pre-trained model that can be effectively utilized in
 transfer learning scenarios. Do some research about this model.
