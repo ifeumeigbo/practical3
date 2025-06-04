@@ -896,7 +896,15 @@ batch[[1]]$size()
 ```
 
 **6\_** What are the potential drawbacks or disadvantages of data
-augmentation?
+augmentation?\
+Potential drawbacks include:\
+Computational Cost: Increases training time and resource requirements.\
+Inappropriate Transformations: Some augmentations might not be medically
+realistic.\
+Overfitting to Augmentations: Model might learn augmentation artifacts.\
+Loss of Important Features: Excessive augmentation might remove
+diagnostic features.\
+Memory Usage: Storing augmented images increases memory requirements.
 
 # Mobile net
 
