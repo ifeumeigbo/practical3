@@ -783,7 +783,16 @@ print(acc_plot)
 
 **4\_** Based on the training and test accuracy, is this model actually
 managing to classify X-rays into pneumonia vs normal? What do you think
-contributes to this? why?
+contributes to this? why?\
+The basic model is likely struggling to classify effectively due to:\
+Insufficient model complexity: The simple CNN may not have enough
+capacity to learn complex features.\
+Limited training data: Medical datasets are often smaller than natural
+image datasets.\
+High variance in medical images: X-rays can vary significantly in
+quality, positioning, and patient characteristics.\
+Need for domain-specific features: Medical images require specialized
+feature extraction.
 
 It seems that the model is not training effectively the model is
 struggling to learn from the data and is not generalizing well to unseen
